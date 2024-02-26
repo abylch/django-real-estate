@@ -5,7 +5,7 @@ img {
   width: 100%; }
 
 .logo {
-  width: 80px; }
+  width: 40px; }
 
 .navbar {
   opacity: 0.9;
@@ -15,7 +15,7 @@ img {
   margin-right: 0.4rem; }
 
 #showcase {
-  background: url(../img/showcase.jpg) no-repeat top center fixed/cover;
+  background: url(../img/showcase.jpg) no-repeat top center fixed;
   position: relative;
   min-height: 650px;
   color: #fff;
