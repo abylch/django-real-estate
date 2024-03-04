@@ -152,6 +152,13 @@ MESSAGE_TAGS = {
     messages.ERROR: 'danger'
 }
 
+# Email config
+EMAIL_HOST = os.getenv("EMAIL_HOST")
+EMAIL_PORT = 587
+EMAIL_HOST_USER= os.getenv("EMAIL_USER")
+EMAIL_HOST_PASSWORD= os.getenv("EMAIL_PASS")
+EMAIL_USE_TLS=True
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/5.0/ref/settings/#default-auto-field
 
